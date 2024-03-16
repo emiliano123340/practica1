@@ -1,0 +1,56 @@
+body{  /*Estilo de body*/
+    font-family: Arial, Helvetica, sans-serif; /*fuente para el texto*/
+    margin: 0; /*elimina el margen alrededor del cuerpo*/
+    padding: 0; /*elimina el relleno alrededor del cuerpo*/
+    background-color: aliceblue; /*color de fondo*/
+}
+
+header{ /*Estilo el encabezado*/
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav{ /*Estilo de navegacion*/
+    background-color: rgb(54, 54, 236); /*color de fondo de la barra de navegacion*/
+    color: white; /*color de texto en la barra de navegación*/
+    padding: 5px;   /*relleno de la barra de navegacion*/
+}
+
+nav ul{
+    list-style: none;   /*Elimina los puntos de ka lista*/
+    margin: 0;    /*Eliimina el margen de la lista*/
+    padding: 0;   /*elimina el relleno de la lista*/
+    text-align: center;   /*alinea los elementos de la lista*/
+}
+
+/*estilow e3 cada elmento de ña lista de navegqcion*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+
+nav ul li{
+    display: inline;
+     margin-right: 0;
+}
+
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #333;
+    color: wheat;
+    padding: 10px 0;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
